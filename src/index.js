@@ -11,8 +11,8 @@ function handleServer(req, res) {
     else if(req.url == '/contact') {
         res.writeHead(200,{"Content-type":"application/json"});
         let obj = {
-                    "phone": '18602100000',
-                    "email": 'guestcaredominos@jublfood.com'
+                    phone: '18602100000',
+                    email: 'guestcaredominos@jublfood.com'
                 };
         res.end(JSON.stringify(obj);
     }
